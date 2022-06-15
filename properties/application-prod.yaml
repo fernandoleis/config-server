@@ -2,5 +2,5 @@ spring:
   application:
     name: teste-service
 teste-service:
-  greeting: "ciao"
+  greeting: "teste"
   default-value: "Mundo"
