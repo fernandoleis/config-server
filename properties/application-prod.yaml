@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: teste-service
+teste-service:
+  greeting: "ciao"
+  default-value: "Mundo"
