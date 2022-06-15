@@ -1,6 +1,12 @@
 spring:
   application:
     name: teste-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
 teste-service:
   greeting: "Ola"
   default-value: "Mundo"
